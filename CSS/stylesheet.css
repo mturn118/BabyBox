@@ -1,0 +1,189 @@
+/* Navigation Bar */
+
+.navbar-brand{
+    font-family: 'Old Standard TT', serif;
+    padding-left: 10px;
+    font-size: 1rem;
+}
+
+.nav-item{
+  font-family: 'Gayathri', sans-serif;
+  margin-right: 5px;
+}
+
+.header{
+  font-family: 'Arvo', serif;
+  color:#8ac6d1;
+}
+
+/* Title Page */
+p{
+  font-family: 'Gayathri', sans-serif;
+  line-height: 1.5;
+}
+
+.title-head{
+  position: absolute;
+  z-index: 2;
+  font-size: 2rem;
+  margin-top: 270px;
+  margin-left: 250px;
+  text-align: center;
+}
+
+.navbar{
+  z-index: 2;
+  position: fixed;
+}
+
+.title-title{
+  font-size: 9rem;
+  font-family: 'Old Standard TT', serif;
+  color: #8ac6d1;
+}
+
+.title-img{
+  color:  #8ac6d1;
+  width: 20px;
+  height: 20px;
+}
+
+.bg-img{
+  width: 1482px;
+  height: 700px;
+
+}
+#carouselbackground{
+  margin: 0;
+  padding: 0;
+  z-index: -1
+}
+
+.overlay{
+  margin: 0;
+  padding: 0;
+  z-index: 1;
+  background: #000000;
+  opacity:.4;
+  position:absolute;
+  height: 700px;
+  width: 1482px;
+}
+
+.title-para{
+  color: #fff;
+}
+
+
+/* Services */
+
+#Services{
+  padding: 5%;
+
+}
+
+.card-deck{
+  padding-left: 15%;
+
+}
+
+.card{
+  /* height: 350px; */
+  text-align: center;
+  box-shadow: 0 16px 38px -12px rgba(0,0,0,.56), 0 4px 25px 0 rgba(0,0,0,.12), 0 8px 10px -5px rgba(0,0,0,.2);
+  background: white;
+}
+
+.fas{
+  padding: 10px 0 10px 0;
+  /* color: #ffb6b9; */
+}
+
+.features .card-deck{
+  position:relative;
+  z-index: 1;
+
+}
+
+
+/* How it works */
+
+.hiw{
+padding: 5%;
+background-color: #fae3d9;
+}
+
+.Quote{
+  padding: 0 10%;
+}
+
+.hiw-img{
+  float: left;
+}
+
+
+/* Become a Member */
+
+.bam{
+  padding: 5% 10%;
+  /* background-color: #fae3d9; */
+}
+
+
+/* Prices */
+#Prices .card-deck {
+  padding-top: 10px;
+}
+
+.prices-container .card-deck{
+  padding-left: 0;
+}
+
+
+#Prices .container-fluid{
+  height: 500px;
+  z-index: 2;
+}
+
+.prices-container{
+  height: 560px;
+  text-align: center;
+  padding-top: 20px;
+  position: absolute;
+  z-index: 2;
+  margin-left: 295px;
+}
+.price-bg{
+  width: 1482px;
+  height: 560px;
+}
+.overlay2{
+  margin: 0;
+  padding: 0;
+  z-index: 1;
+  background: #000000;
+  opacity:.4;
+  position:absolute;
+  height: 560px;
+  width: 1482px;
+}
+
+.prices-header{
+  margin-left: 20px;
+}
+
+/* Donate */
+
+.donate{
+  text-align: center;
+  padding: 3% 5%;
+  background-color: #fae3d9;
+}
+
+
+/* footer */
+
+footer{
+  text-align: center;
+  color: #000000;
+}
